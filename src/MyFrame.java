@@ -6,7 +6,7 @@ import java.util.Calendar;
 
 public class MyFrame extends JFrame {
 
-    Calendar calender;
+    //Calendar calender;
     SimpleDateFormat timeFormat;
     SimpleDateFormat dayFormat;
     SimpleDateFormat dateFormat;
