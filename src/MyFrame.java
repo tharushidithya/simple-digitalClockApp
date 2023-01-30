@@ -4,7 +4,6 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 
-
 public class MyFrame extends JFrame {
 
     Calendar calender;
@@ -26,10 +25,10 @@ public class MyFrame extends JFrame {
 
     timeFormat = new SimpleDateFormat("hh:mm:ss a");
     dayFormat = new SimpleDateFormat("EEEE");
-    dateFormat = new SimpleDateFormat("dd MMMM yyyy");
+    dateFormat = new SimpleDateFormat("dd MMMM, yyyy");
 
     timeLabel = new JLabel();
-    timeLabel.setFont(new Font("Verdana",Font.PLAIN,50));
+    timeLabel.setFont(new Font("Verdana",Font.PLAIN,45));
     timeLabel.setForeground(Color.white);
     timeLabel.setBackground(Color.black);
     timeLabel.setOpaque(true);
